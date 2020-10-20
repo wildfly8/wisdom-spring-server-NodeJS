@@ -1,1 +1,1 @@
-heroku logs --tail --app covid19-country-stats
+heroku logs --tail --app wisdomspring-server

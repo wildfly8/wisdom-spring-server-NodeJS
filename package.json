@@ -5,8 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "concurrently \"nodemon ./bin/www\" \"cd client && npm run start\"",
-    "debug": "nodemon --inspect ./bin/www",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "debug": "nodemon --inspect ./bin/www"
   },
   "dependencies": {
     "@okta/jwt-verifier": "1.0.0",
