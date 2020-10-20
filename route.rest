@@ -1,0 +1,31 @@
+GET https://api.covid19api.com/countries
+
+###
+
+GET https://api.covid19api.com/total/country/united-states
+
+###
+
+GET https://covidtracking.com/api/states/daily
+
+
+###
+POST http://localhost:4000/api/sales
+Content-Type: application/json
+
+[
+    {
+        "itemId": "10011", 
+        "itemName": "Nokia 8", 
+        "itemPrice": 388, 
+        "itemQty": 5, 
+        "totalPrice": "1940"
+    },
+    {
+        "itemId": "10012", 
+        "itemName": "Iphone 12", 
+        "itemPrice": 1700, 
+        "itemQty": 51, 
+        "totalPrice": "2000"
+    }
+]
